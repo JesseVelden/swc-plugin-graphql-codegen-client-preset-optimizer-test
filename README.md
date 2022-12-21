@@ -18,13 +18,13 @@ And configuring it in your `.swcrc`:
 ```json5
 {
   // ...
-  jsc: {
+  "jsc": {
     // ...
-    experimental: {
-      plugins: [
+    "experimental": {
+      "plugins": [
         [
-          'swc-plugin-graphql-codegen-client-preset-optimizer-test',
-          { artifactDirectory: './src/gql', gqlTagName: 'graphql' }
+          "swc-plugin-graphql-codegen-client-preset-optimizer-test",
+          { "artifactDirectory": "./src/gql", "gqlTagName": "graphql" }
         ]
       ]
     }
