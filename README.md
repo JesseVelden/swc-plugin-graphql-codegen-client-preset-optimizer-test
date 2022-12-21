@@ -23,7 +23,7 @@ And configuring it in your `.swcrc`:
     experimental: {
       plugins: [
         [
-          '@graphql-codegen/client-preset-swc-plugin-optimizer',
+          'swc-plugin-graphql-codegen-client-preset-optimizer-test',
           { artifactDirectory: './src/gql', gqlTagName: 'graphql' }
         ]
       ]
@@ -39,7 +39,7 @@ const nextConfig = {
   experimental: {
     swcPlugins: [
       [
-        '@graphql-codegen/client-preset-swc-plugin-optimizer', 
+        'swc-plugin-graphql-codegen-client-preset-optimizer-test', 
         { artifactDirectory: './src/gql', gqlTagName: 'graphql' }
       ]
     ]
