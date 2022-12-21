@@ -8,5 +8,7 @@
     "scripts": {
         "prepublishOnly": "cargo build-wasi --release && cp target/wasm32-wasi/release/swc_plugin_graphql_codegen_client_preset_optimizer_test.wasm ."
     },
-    "files": []
+    "files": [
+        "swc_plugin_graphql_codegen_client_preset_optimizer_test.wasm"
+    ]
 }
