@@ -1,0 +1,1 @@
+# SWC-plugin-graphql-codegen-client-preset-optimizer
