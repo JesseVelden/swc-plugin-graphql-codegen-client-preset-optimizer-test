@@ -38,7 +38,10 @@ const nextConfig = {
   // ...
   experimental: {
     swcPlugins: [
-      ['@graphql-codegen/client-preset-swc-plugin-optimizer', { artifactDirectory: './src/gql', gqlTagName: 'graphql' }]
+      [
+        '@graphql-codegen/client-preset-swc-plugin-optimizer', 
+        { artifactDirectory: './src/gql', gqlTagName: 'graphql' }
+      ]
     ]
   }
 }
