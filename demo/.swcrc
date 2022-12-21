@@ -1,0 +1,18 @@
+{
+    "$schema": "https://json.schemastore.org/swcrc",
+    "jsc": {
+      "parser": {
+        "syntax": "typescript",
+        "dynamicImport": false,
+        "tsx": false,
+        "decorators": false,
+      },
+      "experimental": {
+        "plugins": [ [
+            "swc-plugin-graphql-codegen-client-preset-optimizer-test",
+             {"artifactDirectory": "./src/gql", "gqlTagName": "graphql"}
+        ]] 
+      }
+    },
+    "minify": false
+  }
